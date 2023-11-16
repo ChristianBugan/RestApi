@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "result": {
+      "type": "object",
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer"
+        },
+        "gender": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "_id",
+        "name",
+        "email",
+        "age",
+        "gender"
+      ]
+    }
+  },
+  "required": [
+    "result"
+  ]
+}
